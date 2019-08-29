@@ -1,5 +1,6 @@
 package com.example.lsis;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ public class OrdersController {
 
     private OrdersRepository ordersRepository;
 
+    // config server 설정 시 : @Value("${customer.service.cloud.uri}")
     private final String customerURL = "http://localhost:8081/customer";
 
     public OrdersController(OrdersRepository ordersRepository) {

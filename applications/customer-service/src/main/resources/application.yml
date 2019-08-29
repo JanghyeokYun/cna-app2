@@ -1,0 +1,25 @@
+#server.port: 8081
+#
+#spring:
+#  jpa:
+#
+#    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#    hibernate:
+#      ddl-auto: create
+#
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/customers?useSSL=false
+#    username: root
+#    tomcat:
+#      max-active: 4
+#      max-idle: 4
+#      min-idle: 4
+#      initial-size: 4
+#  security:
+#    user:
+#      name: user
+#      password: password
+
+
+#orders:
+#  url: http://localhost:8082/order

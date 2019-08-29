@@ -1,0 +1,21 @@
+#server.port: 8082
+#
+#spring:
+#  jpa:
+#    #generate-ddl: true
+#    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#    hibernate:
+#      ddl-auto: create-drop
+#
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/orders?useSSL=false
+#    username: root
+#    tomcat:
+#      max-active: 4
+#      max-idle: 4
+#      min-idle: 4
+#      initial-size: 4
+#  security:
+#    user:
+#      name: user
+#      password: password

@@ -3,7 +3,7 @@ rootProject.name = 'cna-app2'
 
 include "applications:customer-service"
 include "applications:order-service"
-include "applications:config-server"
+//include "applications:config-server"
 //include "applications:service-app"
 
 //include "components:customers"
